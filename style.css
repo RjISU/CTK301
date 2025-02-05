@@ -1,0 +1,39 @@
+/* Am I cookded? */
+  /* CSS */
+  p {
+    color: #ff0000;
+  }
+   /*                 RRGGBB   */
+.funp {
+    color: #00f;
+    background-color: lightsalmon
+}
+#hopeP {
+    color: orchid;
+    background-color: rgb(15, 94, 64);
+}
+
+.badp {
+    background-color: #8144e3;
+}
+
+.goodp {
+    background-color: #00c4fa;
+}
+
+.whatS {
+    color: #874007;
+}
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+} 
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
