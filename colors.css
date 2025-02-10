@@ -1,0 +1,34 @@
+a {
+    color: green;
+} 
+a:hover {
+    color: red;
+}
+#QP {
+    background-color: #6860c1;
+}
+.IK {
+    color: #ffffff;
+}
+.wowR {
+    color: blue;
+}
+.whoD {
+    color: rgb(255, 179, 0);
+}
+.Doc1 {
+    background-color: yellow;
+}
+.Ill {
+    color: #ff0000;
+}
+#Doc2 {
+    color: yellow;
+    background-color: green;
+}
+#Doc3 {
+    background-color: mediumspringgreen;
+}
+footer {
+    background-color: yellow;
+}
