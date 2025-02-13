@@ -1,0 +1,60 @@
+/* Jesus is King! */
+body {
+    background-color: #929297;
+    background-image: url(doctors.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+main {
+    background-color: #0000ff;
+}           
+  /* Sets */
+  /* CSS */
+.customtext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;}
+   /*                 RRGGBB redred,greengreen,blueblue  */
+/* CSS */
+.fontcombined {
+    font: bold 20px Arial, Helvetica, sans-serif;
+}
+.customtext2 {
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;}
+
+/* CSS */
+.boxmodel {
+    border: 2px solid #000000;
+    padding: 20px;
+    margin: 10px;
+}
+.zeroout {
+    margin: 0;
+    padding: 0;
+}
+.pwidth {
+    font: bold 20px Arial, Helvetica, sans-serif;
+    width: 100px;
+}
+
+.textcenter {
+    font: bold 20px Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.textjustify {
+    font: bold 20px Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+imgbox {
+    border: 20px solid #000000;
+    padding: 10px;
+    margin: 20px yellow;
+    background-color: white;
+}
