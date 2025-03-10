@@ -1,0 +1,112 @@
+.wrap {
+    margin: 1em auto;
+    padding: 0;
+    width: 1200px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    font-family: Arial, Helvetica, Georgia;
+    text-decoration: none;
+    font-weight: normal;
+    margin-top: 5;
+}
+
+nav {
+    grid-column: span 12;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+
+nav li {
+    border: 5px solid rgb(20, 86, 219);
+    width: 150px;
+    color: lightblue; /* Added missing semicolon */
+    margin-right: 15px;
+    background: linear-gradient(90deg, rgb(22, 113, 216), rgb(13, 96, 148)); /* Added linear gradient */
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    padding: 1em;
+    color: rgb(52, 173, 248);
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, Georgia ;
+    font-size: medium;
+    }
+    
+    
+    nav li a:hover {
+        color: rgb(255, 255, 255); /* Added hover effect */
+}
+
+
+
+main img {
+    grid-column: span 3;
+    float: top;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    border: 5px solid rgb(58, 94, 201);
+}
+header {
+    grid-column: span 12;
+    font-family: Arial, Helvetica, Georgia;
+    text-decoration: none;
+    font-weight: normal;
+    border: 5px solid rgb(58, 94, 201);
+    padding-top: 24;
+    color: rgb(93, 187, 245); /* Added font color */
+    padding-left: 24;
+    background: linear-gradient(90deg, rgb(22, 113, 216), rgb(13, 96, 148)); /* Added linear gradient */
+  }
+
+  main {
+    grid-column: span 6;
+    font-family: Arial, Helvetica, Georgia;
+    text-decoration: none;
+    font-weight: normal;
+    float: top, right;
+    color: rgb(1, 4, 6); /* Added font color */}
+
+ h2 {
+    font-family: Arial, Helvetica, Georgia;
+    border-bottom: 5px solid rgb(58, 94, 201);
+    padding-bottom: 10px;
+    font-weight: normal;
+    color: black; /* Added font color */
+}
+h3 {
+    grid-column: span 1;
+    font-family: Arial, Helvetica, Georgia;
+    font-weight: normal;
+    color: rgb(58, 94, 201);; /* Added font color */
+    border-bottom: 5px solid rgb(58, 94, 201);
+    background-color: rgb(18, 236, 248);
+   
+}
+
+.gho{
+    grid-column: span 12;
+    font-family: Arial, Helvetica, Georgia;
+    font-weight: normal;
+    margin-left: 10px;
+    border-bottom: 5px solid rgb(58, 94, 201);
+    padding-bottom: 10px;
+    padding: 24px; /* Added padding */
+    background-color: rgb(18, 236, 248);
+    color: rgb(1, 4, 6); /* Added font color */
+}
+footer {
+    background-image: url("wordmark_isu.png");
+    padding: 50px;
+    background-color: red;
+    background-repeat: no-repeat;
+    border: 5px solid rgb(58, 94, 201);
+    
+
+}
