@@ -1,0 +1,83 @@
+/* Global styles */
+body {
+    font-family: 'Open Sans', sans-serif; /* Google Font */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #ce2611;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Grid layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Left column (Contact) */
+#contact {
+    grid-column: 1 / 2; /* Stays in the left column */
+    background: #f9f9f9;
+    padding: 20px;
+    border-bottom: 10px solid #ce2611;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Drop shadow */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Right column sections */
+#video, #audio, #about {
+    grid-column: 2 / 3; /* Positioned in the right column */
+    background: #ffffff;
+    padding: 20px;
+    border-bottom: 10px solid #ce2611;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Drop shadow */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.video-container {
+    background-color: #ddd;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #888;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Drop shadow */
+}
+* Social Media Icons */
+.social-media {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #ce2611; /* Icon color */
+    font-size: 1.5rem; /* Icon size */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.social-media a:hover {
+    color: #333; /* Hover effect */
+}
